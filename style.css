@@ -1,0 +1,228 @@
+@font-face {
+  font-family: 'TTLakes';
+  font-style: normal;
+  font-weight: 300;
+  src: local('TTLakes'),
+       url('Assets/Fonts/TTLakes/TTLakes-Light.woff2') format('woff2'),
+       url('Assets/Fonts/TTLakes/TTLakes-Light.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'TTLakes';
+  font-style: normal;
+  font-weight: 400;
+  src: local('TTLakes'),
+       url('Assets/Fonts/TTLakes/TTLakes-Regular.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'TTLakes';
+  font-style: normal;
+  font-weight: 500;
+  src: local('TTLakes'),
+       url('Assets/Fonts/TTLakes/TTLakes-Medium.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'TTLakes';
+  font-style: normal;
+  font-weight: 700;
+  src: local('TTLakes'),
+       url('Assets/Fonts/TTLakes/TTLakes-Bold.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'TTLakes';
+  font-style: normal;
+  font-weight: 800;
+  src: local('TTLakes'),
+       url('Assets/Fonts/TTLakes/TTLakes-Black.woff2') format('woff2'),
+       url('Assets/Fonts/TTLakes/TTLakes-Black.woff') format('woff');
+}
+
+@media (max-width: 767px) {
+
+.footer__text {
+  text-align: center;
+  color: gray;
+}
+  
+  .main__text-container {
+    width: 290px !important;
+  }
+  }
+
+@media (min-width: 768px) and (max-width: 1365px) {
+
+.table__title--row-mobile {
+  display: none !important;
+}
+
+  .footer__text {
+    display: flex !important;
+    flex-direction: row !important;
+    justify-content: space-between !important;
+    gap: 0 !important;
+    text-align: justify !important;
+    line-height: 1 !important;
+  }
+
+  .main__text-container {
+    width: 420px !important;
+  }
+
+  .table__button {
+  margin: 0 !important;
+}
+
+.footer__text {
+  display: flex !important;
+  flex-direction: row !important;
+  justify-content: space-between !important;
+  gap: 0 !important;
+  line-height: 1 !important;
+  width: 100% !important;
+  padding-left: 16px !important;
+  color: gray !important;
+  border-top: 4px solid #D9FFF5 !important;
+  padding-top: 20px !important;
+  padding-left: 20px !important;
+  padding-right: 20px !important;
+}
+}
+
+@media (min-width: 1366px) {
+
+.table__title--row-mobile {
+  display: none !important;
+}
+
+  .main__text-container {
+    width: 420px !important;
+  }
+
+  .footer__text {
+    display: flex !important;
+    flex-direction: row !important;
+    justify-content: space-between !important;
+    gap: 0 !important;
+    line-height: 1 !important;
+    width: 100% !important;
+    padding-left: 16px !important;
+    color: gray !important;
+    border-top: 4px solid #D9FFF5 !important;
+    padding-top: 20px !important;
+    padding-left: 20px !important;
+    padding-right: 20px !important;
+  }
+
+
+  .footer__text-left {
+    text-align: left !important;
+  }
+
+  .footer__text-right {
+    text-align: left !important;
+  }
+
+  .footer__text-center {
+    text-align: center !important;
+  }
+
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "TTLakes", sans-serif;
+  background-color: #F8F8F8;
+}
+
+button {
+  border: none;
+  background: none;
+  color: inherit;
+  font: inherit;
+  cursor: pointer;
+  padding: 0;
+}
+
+header {
+  width: 100%;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+
+.header__title {
+  width: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 32px;
+  padding-right: 32px;
+  font-size: 16px;
+  color: #7E7E82;
+  height: 56px;
+  margin-top: 0;
+  border-top: 4px solid #D9FFF5;
+  background: linear-gradient(to right, #F8F8F8 40%, #ffffff 75%, #ffffff);
+  letter-spacing: 1px;
+}
+
+.table__title {
+  color: gray;
+  font-weight: 400;
+  padding-bottom: 20px;
+  text-align: left;
+  padding-left: 45px;
+}
+
+.table__title--row {
+  font-weight: 400;
+  width: 400px;
+  text-align: left;
+  padding-left: 20px;
+}
+
+.main__price-list-block {
+  border-bottom: 1px solid #D0D0D0;
+}
+
+.main__price-list-block__section__button-text {
+  position: relative;
+  left: 60px;
+  width: 119px;
+  height: 38px;
+  color: white;
+  border-radius: 30px;
+  background-color: #FF3E79;
+  padding-bottom: 10px;
+  font-weight: 600;
+  font-size: 13px;
+  text-transform: uppercase;
+}
+
+.main__text-container {
+  padding-bottom: 70px;
+  padding-top: 30px;
+  margin-left: 25px;
+}
+
+.main__text-container_button {
+  font-weight: 500;
+}
+
+.image-more {
+  position: relative;
+  top: 7px;
+}
+
+.image {
+  position: relative;
+  top: 7px;
+}

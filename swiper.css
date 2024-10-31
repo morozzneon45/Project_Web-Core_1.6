@@ -1,0 +1,101 @@
+  @media (max-width: 767px) {
+    
+    .table__title--row-mobile {
+      color: gray !important;
+      font-weight: 400 !important;
+      text-align: left !important;
+      padding-bottom: 10px !important;
+    }  
+    
+    .button {
+      position: relative !important;
+      bottom: 30px !important;
+      left: 35px !important;
+    }
+    
+  .prices__slider {
+  width: 100% !important;
+  display: block !important;
+  overflow: hidden !important;
+  margin-left: 16px !important;
+}
+  
+  .slider__prices-slide {
+    width: 230px !important;
+    height: 180px !important;
+    display: block !important;
+    margin-bottom: 10px !important;
+    border: 1px solid #ccc !important;
+    border-radius: 5px !important;
+    padding: 10px !important;
+    background-color: #fff !important;
+  }
+    
+    .table__title--row {
+      padding: 0 !important;
+      padding-left: 15px !important;
+    }
+
+th, td {
+    display: block !important;
+    padding-left: 15px !important;
+}
+    
+    .table__title {
+      display: none !important;
+    }
+  }
+
+@media (min-width: 768px) (max-width: 1365px) {
+  
+  .swiper-pagination-bullet {
+  display: none !important;
+  }
+  
+  .prices__slider {
+  width: 100% !important;
+  overflow: hidden !important;
+  margin-left: 16px !important;
+}
+
+.slider__prices-slide {
+  width: 230px !important;
+  height: 180px !important;
+  display: block !important;
+  margin-bottom: 10px !important;
+  border: 1px solid #ccc !important;
+  border-radius: 5px !important;
+  padding: 10px !important;
+  background-color: #fff !important;
+}
+  
+}
+
+  @media (min-width: 1366px) {
+    
+    .swiper-pagination-bullet {
+    display: none !important;
+    }
+    
+  table {
+    text-align: center !important;
+    width: 95% !important;
+    border-collapse: collapse !important;
+    margin: auto !important;
+    overflow: hidden !important;
+    border: 1px solid white !important;
+    border-radius: 20px !important;
+  }
+}
+
+.swiper-pagination-bullet {
+  width: 12px;
+  height: 12px;
+  background: #DDDDDD;
+  opacity: 0.7;
+}
+
+.swiper-pagination-bullet-active {
+  background: #B5B6BC;
+  opacity: 1;
+}
